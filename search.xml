@@ -4,13 +4,19 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="2021/01/01/hello-world/"/>
-      <url>2021/01/01/hello-world/</url>
+      <title>2020年度总结</title>
+      <link href="2021/01/01/2020%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
+      <url>2021/01/01/2020%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>转眼间，2020 年就过去了。终于在新年到来之前，给博客换了个新主题。俗话新年新气象，咸鱼了这么久也该做些改变了，在 2021 的第一天回顾一下我的 2020 年。</p><h2 id="立下的-flag"><a href="#立下的-flag" class="headerlink" title="立下的 flag"></a>立下的 flag</h2><p>还记得 2019 年年末公司的一期英语角，主题应该是 2020 的展望（立下 flag），我那时候定的是：</p><ul><li>要读 12 本书</li><li>要去旅游</li><li>学会时间管理</li></ul><p>定目标的时候总是感觉很简单，但实际实行的时候总是会遇到许多意想不到的问题，下面来看下这些目标的完成情况以及解释（狡辩.jpg）：</p><ul><li>这个目标定得有点扯，12 本书意味着每个月一本（对我这种咸鱼来说太难了）。书是有看的，但都没有看完，所以完成度就不说了。</li><li>想得非常美好！！！但实际上因为疫情的原因，可能有大半年的时间都没法出门，旅游就更不行了。后来可以出门的时候，又很懒得去。所以我决定，以后不再定旅游的目标了，这种目标应该说对我没有意义？？？</li><li>其实在上半年疫情还比较严重的时候基本也是没啥进展的，但是后来应该说有在慢慢变好吧（相比去年而言）。这里推荐一个工具：<a href="https://www.taskade.com/">Taskade</a>，功能还是挺多的，还能添加成员，做开发管理相关的事情。但是对本菜鸟而言，就把它当做计划表使用了。</li></ul><h2 id="2020总结（真）"><a href="#2020总结（真）" class="headerlink" title="2020总结（真）"></a>2020总结（真）</h2><h3 id="工作方面"><a href="#工作方面" class="headerlink" title="工作方面"></a>工作方面</h3><p>  可以看到，立的 Flag 基本是血崩状态。在写这篇博客之前，我一直在思考，2020 年我到底得到了什么？其实总结起来很简单：<strong>提高了业务能力</strong>。</p><ul><li>去年基本是几个人一起做项目，各自负责一部分的功能开发。而今年项目的几个工程差不多都是自己一个人搭起来的，后续的开发也是自己跟。这样其实有利有弊，好处是更好地锻炼自己，坏处是没有人帮忙纠错。</li><li>去年做的是纯前端，只需要和服务端联调。今年做的是混合开发，需要和各端（安卓、ios、pc、服务）端联调，也接触了各种不同的业务、组件（公司其他项目组的），踩了许多坑，也留了一些坑（没错，说的就是你，Bridge！）。</li></ul><h3 id="生活方面"><a href="#生活方面" class="headerlink" title="生活方面"></a>生活方面</h3><ul><li>日常三点一线</li><li>小说不知道看了多少本，今年会比较喜欢看休闲搞笑风格的，代表作：修真聊天群、<strong>我师兄真是太稳健了</strong>（强推）；（类）无限流：轮回乐园、<strong>诸界末日在线</strong>（强推！）；武侠、仙侠：剑道师祖、步剑庭（智斗）、<strong>众星之主</strong>（无限流，强推，可惜断了，后续貌似要在公众号付费才能看）。</li><li>日常 NS 吃灰，塞尔达好久没玩，虽然是天下第一，可是我好像找不到刚玩时的感觉了；火焰纹章倒是皇女线通关了，今年唯一打通的游戏。动森吃灰 +1；年度最佳游戏：<strong>哈迪斯</strong>。</li><li>没有锻炼身体，今年重了应该有 10 斤，很可怕，居然 120 了。还有最近貌似有点失眠，早上莫名会早起？</li><li>还是书，但不是网络小说。最近在微信读书上氪金了会员，发现还挺好用。在看推荐：<strong>大秦帝国、上帝掷骰子吗？：量子物理史话、大话设计模式</strong>。</li></ul><h2 id="2021-的-flag"><a href="#2021-的-flag" class="headerlink" title="2021 的 flag"></a>2021 的 flag</h2><ul><li>React 的源码、原理，Node、Electron、Http、设计模式</li><li>读书，尽量多进行技术输出（重要）</li><li>健身？？</li></ul><p>以上，元旦快乐。</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 总结 </tag>
+            
+        </tags>
       
     </entry>
     
