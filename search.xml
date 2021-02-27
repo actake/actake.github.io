@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>记一次fixed布局的坑</title>
+      <link href="2021/02/27/%E8%AE%B0%E4%B8%80%E6%AC%A1fixed%E5%B8%83%E5%B1%80%E7%9A%84%E5%9D%91/"/>
+      <url>2021/02/27/%E8%AE%B0%E4%B8%80%E6%AC%A1fixed%E5%B8%83%E5%B1%80%E7%9A%84%E5%9D%91/</url>
+      
+        <content type="html"><![CDATA[<p>挺久没有更新了，这周刚好碰到一个坑，顺手记录下来，方便以后 review 吧。</p><h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><ul><li>最近在做一个移动端项目，功能就先不谈了，反正呢，我这边需要接入一个其他人开发的组件</li><li>这个组件的主要内容的布局是 fixed 布局</li></ul><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><ul><li>在学习模式一切正常</li><li>但是在解析模式下，看不到这个组件。打开控制台查看，发现 fixed 布局的 dom 结构计算出来的 left 值为三百多，超出了屏幕</li></ul><p>经过了一番漫长的排查，怀疑是 fixed 布局的基准变化了，所以到网上查了下资料，确实有这种情况。<br>对于这个问题，MDN 其实已经有概述了：</p><blockquote><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/position">当元素祖先的 transform, perspective 或 filter 属性非 none 时，容器由视口改为该祖先。</a></p></blockquote><h2 id="写个-demo"><a href="#写个-demo" class="headerlink" title="写个 demo"></a>写个 demo</h2><p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="actake" data-slug-hash="MWbQRwK" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MWbQRwK">  <span>See the Pen <a href="https://codepen.io/actake/pen/MWbQRwK">  MWbQRwK</a> by actake (<a href="https://codepen.io/actake">@actake</a>)  on <a href="https://codepen.io">CodePen</a>.</span></p><script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>所以确实是 fixed 的基准错了导致 bug，再排查下，发现在解析模式下，上层使用 Carousel 组件，该组件容器带有不为 none 的 transform 样式。<br>排查到原因后，修改就很简单了，设置一个正确的基准就 ok 了</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2020年度总结</title>
       <link href="2021/01/01/2020%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
       <url>2021/01/01/2020%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</url>
