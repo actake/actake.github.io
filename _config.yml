@@ -107,5 +107,5 @@ theme: melody
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/actake/actake.github.io.git
+  repo: git@github.com:actake/actake.github.io.git
   branch: main
