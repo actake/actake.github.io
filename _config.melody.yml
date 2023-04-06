@@ -20,7 +20,7 @@ menu:
   主页: /
   归档: /archives
   标签: /tags
-  分类: /categories
+  # 分类: /categories
   #XXX: /xxx
 
 # Favicon
@@ -90,7 +90,7 @@ katex:
 
 # Toggle fireworks (IE >= 10)
 # ---------------
-fireworks: true
+fireworks: false
 
 # Analysis
 # ---------------
@@ -320,7 +320,7 @@ google_adsense:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-google_site_verification:
+google_site_verification: VkvnbEA39tPUuDz5C-X_b9RjJPpwsw4uJDNp2LcX_w8
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -332,7 +332,7 @@ bing_site_verification:
 
 # Baidu Webmaster tools verification setting
 # See: https://ziyuan.baidu.com/site/
-baidu_site_verification:
+baidu_site_verification: i0nykfFg1m
 
 # 360 Webmaster tools verification setting
 # see http://zhanzhang.so.com/

@@ -6,14 +6,14 @@
 title: actake的博客
 subtitle: ''
 description: '一只前端'
-keywords:
+keywords: [actake, 前端, html, css, js, javascript, react]
 author: actake
 language: zh-Hans
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: https://actake.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -107,5 +107,11 @@ theme: melody
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/actake/actake.github.io.git
+  repo: git@github.com:actake/actake.github.io.git
   branch: main
+
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
